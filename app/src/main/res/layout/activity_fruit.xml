@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fruit_tview"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:text="TextView"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/go_back"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:text="回上一層"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/go_backclean"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:text="回上一層並清除選擇"
+            android:textSize="30sp" />
+    </LinearLayout>
